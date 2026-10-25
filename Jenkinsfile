@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "my-flask"
-        CONTAINER_NAME = "my-flask-container"
+        CONTAINER_NAME = "flaskapp"
         PORT = "8000"  // 改成你后端实际暴露的端口
     }
 
